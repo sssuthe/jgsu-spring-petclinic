@@ -1,8 +1,8 @@
 pipeline {
     agent any
-    triggers {
+/*     triggers {
         cron('* * * * *')
-    }
+    } */
 
     stages {
         //implicit checkout stage
